@@ -1,0 +1,47 @@
+# Build Folders (la carpeta donde se almacenan los archivos de compilación)
+bin/
+obj/
+
+# Archivos de usuario de Visual Studio
+.vs/
+.vscode/
+
+# Archivos de configuración específicos de Visual Studio
+.vs2019/
+.vs2017/
+.vs2022/
+
+# Archivos generados por ASP.NET Core
+project.lock.json
+project.fragment.lock.json
+
+# Archivos temporales y de caché de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de entornos de desarrollo (no incluir en Git)
+appsettings.Development.json
+appsettings.Production.json
+
+# Archivos de configuración locales
+*.log
+*.tmp
+
+# Archivos de bases de datos locales
+*.mdf
+*.ldf
+
+# Archivos de Docker
+docker-compose.override.yml
+
+# Archivos de dependencias NuGet
+.nuget/
+
+# Archivos de autenticación (si tienes credenciales locales o configuraciones sensibles)
+*.secrets
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
