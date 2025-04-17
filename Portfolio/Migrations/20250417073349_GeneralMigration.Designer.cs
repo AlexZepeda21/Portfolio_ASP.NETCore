@@ -12,8 +12,8 @@ using Portfolio.Data;
 namespace Portfolio.Migrations
 {
     [DbContext(typeof(DbPortfolioContext))]
-    [Migration("20250417072148_Migrations")]
-    partial class Migrations
+    [Migration("20250417073349_GeneralMigration")]
+    partial class GeneralMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
