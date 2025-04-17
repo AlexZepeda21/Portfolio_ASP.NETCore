@@ -66,7 +66,7 @@ namespace Portfolio.Data
                 entity.HasMany(p => p.Images)
                 .WithOne(p => p.Project)
                 .HasForeignKey(p => p.ProjectId)
-                .OnDelete(DeleteBehavior.SetNull);
+                .OnDelete(DeleteBehavior.Cascade);
 
                 entity.HasMany(p => p.ProjectTechnologies)
                 .WithOne(p => p.Project)
